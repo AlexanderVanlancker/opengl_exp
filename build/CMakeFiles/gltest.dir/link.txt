@@ -1,1 +1,1 @@
-/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/gltest.dir/src/main.cpp.o -o gltest  -framework OpenGL -framework OpenGL /usr/local/lib/libglfw.3.3.dylib 
+/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/gltest.dir/src/main.cpp.o CMakeFiles/gltest.dir/src/glad.c.o -o gltest  -framework OpenGL -framework OpenGL /usr/local/lib/libglfw.3.3.dylib 

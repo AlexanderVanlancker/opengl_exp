@@ -13,6 +13,7 @@ include_directories(include)
 
 set(SOURCES
 	src/main.cpp
+    src/glad.c
 ) 
 
 find_package(glfw3 REQUIRED)

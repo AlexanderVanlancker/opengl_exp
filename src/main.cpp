@@ -3,6 +3,8 @@
 #include <stdio.h>
 #include <iostream>
 
+void framebuffer_size_callback(GLFWwindow* window, int width, int height);  
+
 int main(){
     glfwInit();
     glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
@@ -16,9 +18,28 @@ int main(){
         glfwTerminate();
         return -1;
     }
+    glfwMakeContextCurrent(window);
+    
+    if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress))
+    {
+        std::cout << "Failed to initialize GLAD" << std::endl;
+        return -1;
+    }    
 
-    
-    
-    printf("this works\n");
+    glViewport(0, 0, 800, 640);
+    glfwSetFramebufferSizeCallback(window, framebuffer_size_callback);
+
+    while(!glfwWindowShouldClose(window))
+    {
+        glfwSwapBuffers(window);
+        glfwPollEvents();    
+    }
+
+    glfwTerminate();
     return 0;
 }
+
+void framebuffer_size_callback(GLFWwindow* window, int width, int height)
+{
+    glViewport(0, 0, width, height);
+}  
