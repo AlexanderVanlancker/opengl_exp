@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/Users/vanlancker/Documents/code/gltest/build",
+  "command": "/usr/bin/clang++  -I/Users/vanlancker/Documents/code/gltest/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/System/Library/Frameworks -isystem /usr/local/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -std=gnu++17 -o CMakeFiles/gltest.dir/src/main.cpp.o -c /Users/vanlancker/Documents/code/gltest/src/main.cpp",
+  "file": "/Users/vanlancker/Documents/code/gltest/src/main.cpp"
+}
+]
