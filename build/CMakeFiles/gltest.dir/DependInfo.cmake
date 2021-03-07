@@ -17,6 +17,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   )
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/vanlancker/Documents/code/gltest/src/main.cpp" "/Users/vanlancker/Documents/code/gltest/build/CMakeFiles/gltest.dir/src/main.cpp.o"
+  "/Users/vanlancker/Documents/code/gltest/src/shader.cpp" "/Users/vanlancker/Documents/code/gltest/build/CMakeFiles/gltest.dir/src/shader.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

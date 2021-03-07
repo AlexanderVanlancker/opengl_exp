@@ -7,6 +7,12 @@ CMakeFiles/gltest.dir/src/glad.c.o: ../src/glad.c
 
 CMakeFiles/gltest.dir/src/main.cpp.o: ../include/KHR/khrplatform.h
 CMakeFiles/gltest.dir/src/main.cpp.o: ../include/glad/glad.h
+CMakeFiles/gltest.dir/src/main.cpp.o: ../src/Shader.h
 CMakeFiles/gltest.dir/src/main.cpp.o: ../src/main.cpp
 CMakeFiles/gltest.dir/src/main.cpp.o: /usr/local/include/GLFW/glfw3.h
+
+CMakeFiles/gltest.dir/src/shader.cpp.o: ../include/KHR/khrplatform.h
+CMakeFiles/gltest.dir/src/shader.cpp.o: ../include/glad/glad.h
+CMakeFiles/gltest.dir/src/shader.cpp.o: ../src/Shader.h
+CMakeFiles/gltest.dir/src/shader.cpp.o: ../src/shader.cpp
 

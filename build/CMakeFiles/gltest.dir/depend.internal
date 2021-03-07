@@ -8,5 +8,11 @@ CMakeFiles/gltest.dir/src/glad.c.o
 CMakeFiles/gltest.dir/src/main.cpp.o
  ../include/KHR/khrplatform.h
  ../include/glad/glad.h
+ /Users/vanlancker/Documents/code/gltest/src/Shader.h
  /Users/vanlancker/Documents/code/gltest/src/main.cpp
  /usr/local/include/GLFW/glfw3.h
+CMakeFiles/gltest.dir/src/shader.cpp.o
+ ../include/KHR/khrplatform.h
+ ../include/glad/glad.h
+ /Users/vanlancker/Documents/code/gltest/src/Shader.h
+ /Users/vanlancker/Documents/code/gltest/src/shader.cpp

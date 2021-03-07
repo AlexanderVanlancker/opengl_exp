@@ -8,5 +8,10 @@
   "directory": "/Users/vanlancker/Documents/code/gltest/build",
   "command": "/usr/bin/clang  -I/Users/vanlancker/Documents/code/gltest/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/System/Library/Frameworks -isystem /usr/local/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/gltest.dir/src/glad.c.o -c /Users/vanlancker/Documents/code/gltest/src/glad.c",
   "file": "/Users/vanlancker/Documents/code/gltest/src/glad.c"
+},
+{
+  "directory": "/Users/vanlancker/Documents/code/gltest/build",
+  "command": "/usr/bin/clang++  -I/Users/vanlancker/Documents/code/gltest/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/System/Library/Frameworks -isystem /usr/local/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -std=gnu++17 -o CMakeFiles/gltest.dir/src/shader.cpp.o -c /Users/vanlancker/Documents/code/gltest/src/shader.cpp",
+  "file": "/Users/vanlancker/Documents/code/gltest/src/shader.cpp"
 }
 ]

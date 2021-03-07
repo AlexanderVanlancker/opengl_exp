@@ -14,6 +14,7 @@ include_directories(include)
 set(SOURCES
 	src/main.cpp
     src/glad.c
+    src/shader.cpp
 ) 
 
 find_package(glfw3 REQUIRED)

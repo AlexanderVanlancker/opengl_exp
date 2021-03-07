@@ -18,6 +18,18 @@ stdint.h
 KHR/khrplatform.h
 -
 
+/Users/vanlancker/Documents/code/gltest/src/Shader.h
+glad/glad.h
+-
+string
+-
+fstream
+-
+sstream
+-
+iostream
+-
+
 /Users/vanlancker/Documents/code/gltest/src/main.cpp
 glad/glad.h
 -
@@ -27,6 +39,8 @@ stdio.h
 -
 iostream
 -
+Shader.h
+/Users/vanlancker/Documents/code/gltest/src/Shader.h
 
 /usr/local/include/GLFW/glfw3.h
 stddef.h
