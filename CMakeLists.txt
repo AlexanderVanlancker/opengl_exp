@@ -15,6 +15,7 @@ set(SOURCES
 	src/main.cpp
     src/glad.c
     src/shader.cpp
+    src/stb_image.cpp
 ) 
 
 find_package(glfw3 REQUIRED)

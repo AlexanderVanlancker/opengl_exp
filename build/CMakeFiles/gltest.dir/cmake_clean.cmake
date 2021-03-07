@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/gltest.dir/src/glad.c.o"
   "CMakeFiles/gltest.dir/src/main.cpp.o"
   "CMakeFiles/gltest.dir/src/shader.cpp.o"
+  "CMakeFiles/gltest.dir/src/stb_image.cpp.o"
   "gltest"
   "gltest.pdb"
 )

@@ -93,12 +93,12 @@ clean: CMakeFiles/gltest.dir/clean
 CMakeFiles/gltest.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gltest.dir/build.make CMakeFiles/gltest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gltest.dir/build.make CMakeFiles/gltest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/vanlancker/Documents/code/gltest/build/CMakeFiles --progress-num=1,2,3,4 "Built target gltest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/vanlancker/Documents/code/gltest/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target gltest"
 .PHONY : CMakeFiles/gltest.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/gltest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vanlancker/Documents/code/gltest/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vanlancker/Documents/code/gltest/build/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/gltest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vanlancker/Documents/code/gltest/build/CMakeFiles 0
 .PHONY : CMakeFiles/gltest.dir/rule
